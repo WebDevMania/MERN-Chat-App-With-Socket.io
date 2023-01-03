@@ -1,0 +1,103 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    height: 90%;
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(26, 47, 105);
+    border-radius: 15px;
+}
+
+.title{
+    color: rgb(219, 211, 211);
+    padding: 0.4rem 0.8rem;
+    border-bottom: 1px solid #000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    flex: 1.25;
+    border-right: 1px solid #000;
+}
+
+.right {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.otherUserData{
+    padding: 0.45rem 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #000;
+}
+
+.messages{
+    height: 85%;
+    width: 100%;
+    overflow-y: auto;
+    padding: 0.4rem 0.8rem;
+}
+
+.otherUserImg{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.personUsername{
+    font-size: 19px;
+    color: #fff;
+}
+
+.inputAndBtn{
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    width: 90%;
+    height: 44px;
+    padding-left: 0.4rem;
+    border: none;
+    border-bottom: 1px solid rgb(26, 47, 105);
+    transition: 150ms all;
+}
+
+.input:focus{
+    outline: none;
+    padding-left: 1rem;
+}
+
+.submitBtn{
+    width: 10%;
+    height: 45px;
+    text-align: center;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    border-color: blue;
+    color: blue;
+    background-color: #fff;
+}
